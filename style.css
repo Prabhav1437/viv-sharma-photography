@@ -309,74 +309,303 @@ a {
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
 }
 
-.testimonials-section {
+.gear-section {
     padding: 100px 0;
-    background: var(--nature-bg);
+    background-color: black;
 }
 
-.testimonials-grid {
+.gear-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
 }
 
-.testimonial-card {
+.gear-image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gear-image:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
+}
+
+.gear-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gear-details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.gear-item {
+    display: flex;
+    gap: 24px;
+    padding: 28px;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(30px) saturate(180%);
-    padding: 32px;
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.testimonial-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.18);
+.gear-item:hover {
+    transform: translateX(8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.85);
 }
 
-.testimonial-stars {
-    color: var(--amber-light);
-    font-size: 1.5rem;
-    margin-bottom: 16px;
-}
-
-.testimonial-text {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: var(--text-medium);
-    margin-bottom: 24px;
-    font-style: italic;
-}
-
-.testimonial-author {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.author-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.gear-icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
     background: linear-gradient(135deg, var(--forest-primary), var(--forest-dark));
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 700;
+    color: white;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 16px rgba(44, 95, 45, 0.3);
 }
 
-.author-info h4 {
-    font-size: 1.05rem;
+.gear-info h3 {
+    font-size: 1.4rem;
     color: var(--text-dark);
-    margin-bottom: 4px;
+    margin-bottom: 12px;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
-.author-info p {
-    font-size: 0.9rem;
+.gear-info p {
+    font-size: 1rem;
+    line-height: 1.7;
     color: var(--text-medium);
+    margin-bottom: 20px;
+}
+
+.gear-specs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gear-specs span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.gear-specs i {
+    color: var(--forest-primary);
+    font-size: 1rem;
+}
+
+.social-media-section {
+    padding: 100px 0;
+    background: var(--nature-light);
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.social-card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    aspect-ratio: 16/9;
+    display: block;
+}
+
+.social-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.social-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.social-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.social-card:hover .social-image img {
+    transform: scale(1.05);
+}
+
+.social-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.social-card:hover .social-overlay {
+    opacity: 1;
+}
+
+.social-overlay i {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.social-card:hover .social-overlay i {
+    transform: scale(1.1);
+}
+
+.youtube-card .social-overlay i {
+    color: #FF0000;
+}
+
+.social-overlay h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 12px;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.social-overlay p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.awards-section {
+    padding: 100px 0;
+    background: #000000;
+}
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.award-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.award-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 60px rgba(212, 165, 116, 0.3);
+    border-color: rgba(212, 165, 116, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.award-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.award-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.award-card:hover .award-image img {
+    transform: scale(1.08);
+}
+
+.award-info {
+    padding: 32px;
+    position: relative;
+}
+
+.award-badge {
+    position: absolute;
+    top: -30px;
+    left: 32px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #D4A574, #B8860B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(212, 165, 116, 0.4);
+    border: 3px solid #000000;
+}
+
+.award-badge i {
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+.award-info h3 {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 12px;
+    margin-top: 40px;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.award-info p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.award-card:hover .award-info h3 {
+    color: var(--amber-light);
+}
+
+.award-card:hover .award-badge {
+    transform: rotate(15deg) scale(1.1);
 }
 
 .page-footer {
