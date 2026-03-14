@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/cdn/:path*",
+            "destination": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/:path*"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}

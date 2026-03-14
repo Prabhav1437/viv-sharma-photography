@@ -41,7 +41,7 @@ export default function Hero() {
                     }}>VIV SHARMA</h1>
                 </div>
                 <div id="showreel">
-                    <video ref={videoRef} src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv_showreel.mp4" autoPlay loop muted playsInline></video>
+                    <video ref={videoRef} src="/cdn/viv_showreel.mp4" autoPlay loop muted playsInline></video>
                     <h1 className="showreel-title" style={{
                         opacity: scrollProgress > 0.8 ? Math.min(0.6, (scrollProgress - 0.7) * 2.5) : 0
                     }}>VIV SHARMA</h1>

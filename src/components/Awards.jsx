@@ -9,7 +9,7 @@ export default function Awards() {
                 <div className="awards-grid">
                     <div className="award-card">
                         <div className="award-image">
-                            <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/award1.jpg" alt="Phoenix Mall Exhibition" />
+                            <img src="/cdn/award1.jpg" alt="Phoenix Mall Exhibition" />
                         </div>
                         <div className="award-info">
                             <div className="award-badge">
@@ -22,7 +22,7 @@ export default function Awards() {
                     </div>
                     <div className="award-card">
                         <div className="award-image">
-                            <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/award2.png" alt="INW Awards Collection-7" />
+                            <img src="/cdn/award2.png" alt="INW Awards Collection-7" />
                         </div>
                         <div className="award-info">
                             <div className="award-badge">
@@ -35,7 +35,7 @@ export default function Awards() {
                     </div>
                     <div className="award-card">
                         <div className="award-image">
-                            <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/award3.png" alt="INW Awards Certificate" />
+                            <img src="/cdn/award3.png" alt="INW Awards Certificate" />
                         </div>
                         <div className="award-info">
                             <div className="award-badge">
@@ -48,7 +48,7 @@ export default function Awards() {
                     </div>
                     <div className="award-card">
                         <div className="award-image">
-                            <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/award4.png" alt="MPTFS Photo of the Month" />
+                            <img src="/cdn/award4.png" alt="MPTFS Photo of the Month" />
                         </div>
                         <div className="award-info">
                             <div className="award-badge">

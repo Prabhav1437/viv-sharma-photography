@@ -2,73 +2,73 @@
     {
         "id": 1,
         "link": "https://www.instagram.com/p/CdS1aCIvMjT/?img_index=1",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/tiger1.png",
+        "image": "/cdn/tiger1.png",
         "alt": "Tiger"
     },
     {
         "id": 2,
         "link": "https://www.instagram.com/p/CbpQ5FkvXe2/?img_index=3",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/bird1.png",
+        "image": "/cdn/bird1.png",
         "alt": "Bird"
     },
     {
         "id": 3,
         "link": "https://www.instagram.com/p/CcsgeLlPnDY/",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/bird2.png",
+        "image": "/cdn/bird2.png",
         "alt": "Bird"
     },
     {
         "id": 4,
         "link": "https://www.instagram.com/p/C8ZRN3FqT1A/?img_index=6",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/owl.png",
+        "image": "/cdn/owl.png",
         "alt": "Owl"
     },
     {
         "id": 5,
         "link": "https://www.instagram.com/p/CdBMfSXvvQE/?img_index=1",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/tiger2.png",
+        "image": "/cdn/tiger2.png",
         "alt": "Tiger"
     },
     {
         "id": 6,
         "link": "https://www.instagram.com/p/Cy8acuUhNre/?img_index=3",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/tiger3.png",
+        "image": "/cdn/tiger3.png",
         "alt": "One Eyed Tiger"
     },
     {
         "id": 7,
         "link": "https://www.instagram.com/p/DSE5zUhAYau/?img_index=4",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/spider.png",
+        "image": "/cdn/spider.png",
         "alt": "Spider"
     },
     {
         "id": 8,
         "link": "https://www.instagram.com/p/C2PWU1xx7Tn/?img_index=2",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/rhino.png",
+        "image": "/cdn/rhino.png",
         "alt": "Rhino"
     },
     {
         "id": 9,
         "link": "https://www.instagram.com/vivsharma_09/",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/Devil.jpeg",
+        "image": "/cdn/Devil.jpeg",
         "alt": "Devil"
     },
     {
         "id": 10,
         "link": "https://www.instagram.com/vivsharma_09/",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/Tiger_Safari.jpeg",
+        "image": "/cdn/Tiger_Safari.jpeg",
         "alt": "Tiger_Safari"
     },
     {
         "id": 11,
         "link": "https://www.instagram.com/vivsharma_09/",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/baby_deer.jpeg",
+        "image": "/cdn/baby_deer.jpeg",
         "alt": "baby_deer"
     },
     {
         "id": 12,
         "link": "https://www.instagram.com/p/Cp2s1jgP_kP/?img_index=1",
-        "image": "https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/Sunset.jpeg",
+        "image": "/cdn/Sunset.jpeg",
         "alt": "Sunset"
     }
 ]

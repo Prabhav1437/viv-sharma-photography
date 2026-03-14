@@ -8,7 +8,7 @@ export default function Gear() {
                 </div>
                 <div className="gear-content">
                     <div className="gear-image">
-                        <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/gear.png" alt="Photography gear in the field" />
+                        <img src="/cdn/gear.png" alt="Photography gear in the field" />
                     </div>
                     <div className="gear-details">
                         <div className="gear-item">

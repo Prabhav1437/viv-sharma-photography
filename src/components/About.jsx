@@ -22,22 +22,22 @@ export default function About() {
                     <div className="about-photos">
                         <div className="photo-grid">
                             <div className="photo-item large">
-                                <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv.jpg" alt="Viv Sharma" />
+                                <img src="/cdn/viv.jpg" alt="Viv Sharma" />
                             </div>
                             <div className="photo-item">
-                                <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv1.jpeg" alt="Viv photographing wildlife" />
+                                <img src="/cdn/viv1.jpeg" alt="Viv photographing wildlife" />
                             </div>
                             <div className="photo-item">
-                                <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv2.jpeg" alt="Viv in the field" />
+                                <img src="/cdn/viv2.jpeg" alt="Viv in the field" />
                             </div>
                             <div className="photo-item">
-                                <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv3.jpeg" alt="Viv with camera" />
+                                <img src="/cdn/viv3.jpeg" alt="Viv with camera" />
                             </div>
                             <div className="photo-item">
-                                <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv4.jpeg" alt="Viv on expedition" />
+                                <img src="/cdn/viv4.jpeg" alt="Viv on expedition" />
                             </div>
                             <div className="photo-item">
-                                <img src="https://pub-b131111335e14b7aab19585812a6bde9.r2.dev/viv5.jpeg" alt="Viv capturing nature" />
+                                <img src="/cdn/viv5.jpeg" alt="Viv capturing nature" />
                             </div>
                         </div>
                     </div>
