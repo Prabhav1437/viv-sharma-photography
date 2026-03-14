@@ -1,39 +1,16 @@
-# Viv Sharma — Wildlife Photographer
+# React + Vite
 
-Welcome to the official portfolio website of **Viv Sharma**, an award-winning wildlife photographer and conservationist based in Mumbai, India.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌿 About the Project
-This website showcases Viv's journey, his photography portfolio, the gear he uses, and his achievements in the field of wildlife conservation. It serves as a digital gallery and a medium to connect with nature enthusiasts worldwide.
+Currently, two official plugins are available:
 
-## ✨ Features
-- **Hero Section**: Showreel video introduction.
-- **About Me**: Viv's background and mission.
-- **Gallery**: Curated collection of best wildlife shots.
-- **Gear**: Details of cameras and lenses used.
-- **Awards**: Recognition and achievements.
-- **Social Integration**: Links to Instagram and YouTube.
-- **Contact**: Reach out for collaborations.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Built With
-- **HTML5**: Semantic structure.
-- **CSS3**: Custom styling and responsive design.
-- **JavaScript**: Minimal interactivity (Video playback control).
-- **Assets**: Visual content stored in `assets/`.
+## React Compiler
 
-## 🚀 How to Run
-Since this is a static website, no build step is required.
-1. Clone the repository or download the files.
-2. Open `index.html` in any modern web browser.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Project Structure
-```
-├── assets/          # Images and videos
-├── index.html       # Main HTML file
-├── style.css        # Stylesheet
-├── index.js         # Script file
-└── README.md        # This file
-```
+## Expanding the ESLint configuration
 
-## 📬 Contact
-- **Email**: vivinwild09@gmail.com
-- **Instagram**: [@vivsharma_09](https://www.instagram.com/vivsharma_09/)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
